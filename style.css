@@ -1,97 +1,86 @@
 body {
-	background: linear-gradient(to bottom, #57C5B6, #159895, #002B5B);
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-header {
-	
-	padding: 20px;
-	text-align: center;
-}
-
-main {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	height: 100vh;	
-	max-width: 80%;
-	margin: 0 auto;
-	font-size: larger;
-	  
-}
-
-.imagem {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin-bottom: 50px;
-}
-
-.imagem img {
-	display: block;
-	margin: auto;
-}
-
-.imagem p {
-	margin: 10px 0;
-}
-
-.imagem p:last-child {
-	margin-bottom: 0;
-}
-
-footer {
-	padding: 20px;
-	text-align: center;
-}
-
-footer img {
-	margin-right: 10px;
-	width: 50px;
-
-}
-
-footer ul {
-	list-style: none;
+	background: linear-gradient(to bottom right, #6bb9f0, #3f7bbf);
+	color: #444;
+	font-family: Arial, sans-serif;
 	margin: 0;
 	padding: 0;
-}
-
-footer ul li {
-	display: inline-block;
-	margin-right: 10px;
-}
-
-footer ul li:last-child {
-	margin-right: 0;
-}
-
-h2, h3 {
+  }
+  
+  header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+  }
+  
+  .logo img {
+	height: 50px;
+  }
+  
+  nav ul {
+	list-style: none;
+	display: flex;
+  }
+  
+  nav li {
+	margin-left: 20px;
+  }
+  
+  nav a {
+	color: #fff;
+	text-decoration: none;
+  }
+  
+  main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+  }
+  
+  h2 {
+	font-size: 28px;
 	text-align: center;
-	font-size: larger;
+	margin-bottom: 20px;
+  }
+  
+  .artista img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+  }
+  
+  .artista p {
+	text-align: justify;
+  }
+  
+  .artista a {
+	display: block;
+	text-align: center;
+	margin-top: 20px;
+	background-color: #fff;
+	color: #444;
+	padding: 10px;
+	text-decoration: none;
+  }
+  
+  .depoimentos {
+	margin-top: 40px;
+  }
+  
+  .depoimento {
+	border: 1px solid #ccc;
+	padding: 20px;
+	margin-bottom: 20px;
+  }
+  
+  .depoimento p {
+	font-style: italic;
+	margin-bottom: 10px;
+  }
+  
+  .depoimento span {
+	font-weight:
 }
 
-.mscont1 {
-	max-width: 80%;
-	margin: 0 auto;
-	font-size: larger;
-}
-
-.mscont2 {
-	max-width: 80%;
-	margin: 0 auto;
-	font-size: larger;
-}
-
-.mscont3 {
-	max-width: 80%;
-	margin: 0 auto;
-	font-size: larger;
-}
-
-.mscont4 {
-	max-width: 80%;
-	margin: 0 auto;
-	font-size: larger;
-}
