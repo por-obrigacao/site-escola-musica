@@ -17,18 +17,69 @@ body {
 	height: 50px;
   }
   
-  nav ul {
-	list-style: none;
-	display: flex;
+  .menu-toggle {
+	display: none;
   }
   
-  nav li {
-	margin-left: 20px;
-  }
-  
-  nav a {
+  .menu-icon {
 	color: #fff;
+	font-size: 24px;
+	cursor: pointer;
+  }
+  
+  .menu {
+	display: none;
+	position: absolute;
+	top: 100%; /* Ajuste a distância conforme necessário */
+	right: 0;
+	background-color: #333; /* Altere as cores conforme necessário */
+	padding: 10px;
+	z-index: 999; /* Certifique-se de que o menu esteja acima dos outros elementos */
+  }
+  
+  .menu-toggle {
+	display: none;
+  }
+  
+  .menu-icon {
+	font-size: 24px;
+	color: #fff;
+	cursor: pointer;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	z-index: 999;
+  }
+  
+  .menu {
+	display: none;
+	position: absolute;
+	top: 60px;
+	right: 20px;
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 4px;
+	z-index: 998;
+  }
+  
+  .menu.active {
+	display: block;
+  }
+  
+  .menu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+  }
+  
+  .menu li {
+	margin-bottom: 10px;
+  }
+  
+  .menu a {
+	color: #444;
 	text-decoration: none;
+	font-size: 16px;
   }
   
   main {
@@ -81,6 +132,16 @@ body {
   }
   
   .depoimento span {
-	font-weight:
-}
-
+	font-weight: bold;
+  }
+  
+  .ins {
+	text-align: center;
+  }
+  
+  .ins a {
+	display: block;
+	margin-top: 20px;
+	color: #fff;
+	text-decoration: none;
+  }
