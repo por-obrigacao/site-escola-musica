@@ -145,3 +145,31 @@ body {
 	color: #fff;
 	text-decoration: none;
   }
+
+  @media only screen and (max-width: 600px) {
+	body {
+	  font-size: 16px; /* Ajuste o tamanho da fonte para dispositivos menores */
+	}
+	
+	header {
+	  padding: 10px; /* Ajuste o espaçamento do cabeçalho */
+	}
+	
+	.logo img {
+	  height: 30px; /* Ajuste o tamanho do logo */
+	}
+	
+	.menu-icon {
+	  font-size: 20px; /* Ajuste o tamanho do ícone do menu */
+	}
+	
+	.menu {
+	  top: 50px; /* Ajuste a posição do menu */
+	}
+	
+	.artista img {
+	  max-width: 100%; /* Para garantir que as imagens se ajustem à largura da tela */
+	}
+	
+	/* Outros ajustes de estilo para dispositivos menores */
+  }
